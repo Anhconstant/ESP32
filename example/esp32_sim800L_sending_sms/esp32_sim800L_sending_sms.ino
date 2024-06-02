@@ -24,4 +24,5 @@ void loop() {
   Serial2.write(0x1A); //ascii code for ctrl-26 
   delay(1000);
   Serial.println("SMS Sent Successfully.");
+  delay(60*1000); //send 1sms/min
 }
